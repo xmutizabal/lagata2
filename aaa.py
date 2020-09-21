@@ -143,15 +143,15 @@ while True:
     	print(p2)
     	print(p1[i][0][0])
 
-    	for i in p1:
-    		print(int(p1[i][0][0]))
-    		p_tupla = p_tupla.append(zip(int(p1[i][0][0]),int(p2[i][0][1])))
+#    	for i in p1:
+#    		print(int(p1[i][0][0]))
+#    		p_tupla = p_tupla.append(zip(int(p1[i][0][0]),int(p2[i][0][1])))
 
-    	print(p_tupla)
+#    	print(p_tupla)
 
 
 
-    	cv.line(image,p_tupla,p_tupla, (250,0,0), thickness=3)
+#    	cv.line(image,p_tupla,p_tupla, (250,0,0), thickness=3)
 
 
     # if the 'c' key is pressed, break from the loop

@@ -140,8 +140,8 @@ while True:
     		p2.append(pm.lonlat_to_pixel([-20.288346 + (delta*i),-70.117299 + delta]))
 
     	print(p1)
-    	print(p2)
-    	print(p1[i][0][0])
+#    	print(p2)
+#    	print(p1[i][0][0])
 
 #    	for i in p1:
 #    		print(int(p1[i][0][0]))
